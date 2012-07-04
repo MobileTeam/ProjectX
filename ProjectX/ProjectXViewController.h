@@ -9,5 +9,8 @@
 #import <UIKit/UIKit.h>
 
 @interface ProjectXViewController : UIViewController
+<UITableViewDataSource,
+UITableViewDelegate>
 
+@property (weak, nonatomic) IBOutlet UITableView *tableView;
 @end

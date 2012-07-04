@@ -15,6 +15,12 @@
 		6A0D4FDD15A3FE0F00DC7E90 /* ProjectXAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A0D4FDC15A3FE0F00DC7E90 /* ProjectXAppDelegate.m */; };
 		6A0D4FE015A3FE0F00DC7E90 /* ProjectXViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A0D4FDF15A3FE0F00DC7E90 /* ProjectXViewController.m */; };
 		6A0D4FE315A3FE0F00DC7E90 /* ProjectXViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6A0D4FE115A3FE0F00DC7E90 /* ProjectXViewController.xib */; };
+		6A0D4FF315A4010300DC7E90 /* RedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A0D4FF115A4010300DC7E90 /* RedViewController.m */; };
+		6A0D4FF415A4010300DC7E90 /* RedViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6A0D4FF215A4010300DC7E90 /* RedViewController.xib */; };
+		6A0D4FF815A4014800DC7E90 /* BlueViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A0D4FF615A4014800DC7E90 /* BlueViewController.m */; };
+		6A0D4FF915A4014800DC7E90 /* BlueViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6A0D4FF715A4014800DC7E90 /* BlueViewController.xib */; };
+		6A0D4FFD15A4015F00DC7E90 /* GreenViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A0D4FFB15A4015F00DC7E90 /* GreenViewController.m */; };
+		6A0D4FFE15A4015F00DC7E90 /* GreenViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6A0D4FFC15A4015F00DC7E90 /* GreenViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,15 +28,24 @@
 		6A0D4FCC15A3FE0F00DC7E90 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		6A0D4FCE15A3FE0F00DC7E90 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6A0D4FD015A3FE0F00DC7E90 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		6A0D4FD415A3FE0F00DC7E90 /* ProjectX-Info.plist */ = {isa = PBXFileReference; path = "ProjectX-Info.plist"; sourceTree = "<group>"; };
+		6A0D4FD415A3FE0F00DC7E90 /* ProjectX-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ProjectX-Info.plist"; sourceTree = "<group>"; };
 		6A0D4FD615A3FE0F00DC7E90 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6A0D4FD815A3FE0F00DC7E90 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		6A0D4FDA15A3FE0F00DC7E90 /* ProjectX-Prefix.pch */ = {isa = PBXFileReference; path = "ProjectX-Prefix.pch"; sourceTree = "<group>"; };
-		6A0D4FDB15A3FE0F00DC7E90 /* ProjectXAppDelegate.h */ = {isa = PBXFileReference; path = ProjectXAppDelegate.h; sourceTree = "<group>"; };
+		6A0D4FDA15A3FE0F00DC7E90 /* ProjectX-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ProjectX-Prefix.pch"; sourceTree = "<group>"; };
+		6A0D4FDB15A3FE0F00DC7E90 /* ProjectXAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ProjectXAppDelegate.h; sourceTree = "<group>"; };
 		6A0D4FDC15A3FE0F00DC7E90 /* ProjectXAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ProjectXAppDelegate.m; sourceTree = "<group>"; };
-		6A0D4FDE15A3FE0F00DC7E90 /* ProjectXViewController.h */ = {isa = PBXFileReference; path = ProjectXViewController.h; sourceTree = "<group>"; };
+		6A0D4FDE15A3FE0F00DC7E90 /* ProjectXViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ProjectXViewController.h; sourceTree = "<group>"; };
 		6A0D4FDF15A3FE0F00DC7E90 /* ProjectXViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ProjectXViewController.m; sourceTree = "<group>"; };
 		6A0D4FE215A3FE0F00DC7E90 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ProjectXViewController.xib; sourceTree = "<group>"; };
+		6A0D4FF015A4010300DC7E90 /* RedViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RedViewController.h; path = src/ColorView/RedViewController.h; sourceTree = "<group>"; };
+		6A0D4FF115A4010300DC7E90 /* RedViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RedViewController.m; path = src/ColorView/RedViewController.m; sourceTree = "<group>"; };
+		6A0D4FF215A4010300DC7E90 /* RedViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = RedViewController.xib; path = src/ColorView/RedViewController.xib; sourceTree = "<group>"; };
+		6A0D4FF515A4014800DC7E90 /* BlueViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BlueViewController.h; path = src/ColorView/BlueViewController.h; sourceTree = "<group>"; };
+		6A0D4FF615A4014800DC7E90 /* BlueViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BlueViewController.m; path = src/ColorView/BlueViewController.m; sourceTree = "<group>"; };
+		6A0D4FF715A4014800DC7E90 /* BlueViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = BlueViewController.xib; path = src/ColorView/BlueViewController.xib; sourceTree = "<group>"; };
+		6A0D4FFA15A4015F00DC7E90 /* GreenViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GreenViewController.h; path = src/ColorView/GreenViewController.h; sourceTree = "<group>"; };
+		6A0D4FFB15A4015F00DC7E90 /* GreenViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GreenViewController.m; path = src/ColorView/GreenViewController.m; sourceTree = "<group>"; };
+		6A0D4FFC15A4015F00DC7E90 /* GreenViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = GreenViewController.xib; path = src/ColorView/GreenViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +92,7 @@
 		6A0D4FD215A3FE0F00DC7E90 /* ProjectX */ = {
 			isa = PBXGroup;
 			children = (
+				6A0D4FED15A400B500DC7E90 /* src */,
 				6A0D4FDB15A3FE0F00DC7E90 /* ProjectXAppDelegate.h */,
 				6A0D4FDC15A3FE0F00DC7E90 /* ProjectXAppDelegate.m */,
 				6A0D4FDE15A3FE0F00DC7E90 /* ProjectXViewController.h */,
@@ -96,6 +112,30 @@
 				6A0D4FDA15A3FE0F00DC7E90 /* ProjectX-Prefix.pch */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6A0D4FED15A400B500DC7E90 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				6A0D4FEF15A400C000DC7E90 /* ColorView */,
+			);
+			name = src;
+			sourceTree = "<group>";
+		};
+		6A0D4FEF15A400C000DC7E90 /* ColorView */ = {
+			isa = PBXGroup;
+			children = (
+				6A0D4FF015A4010300DC7E90 /* RedViewController.h */,
+				6A0D4FF115A4010300DC7E90 /* RedViewController.m */,
+				6A0D4FF215A4010300DC7E90 /* RedViewController.xib */,
+				6A0D4FF515A4014800DC7E90 /* BlueViewController.h */,
+				6A0D4FF615A4014800DC7E90 /* BlueViewController.m */,
+				6A0D4FF715A4014800DC7E90 /* BlueViewController.xib */,
+				6A0D4FFA15A4015F00DC7E90 /* GreenViewController.h */,
+				6A0D4FFB15A4015F00DC7E90 /* GreenViewController.m */,
+				6A0D4FFC15A4015F00DC7E90 /* GreenViewController.xib */,
+			);
+			name = ColorView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -152,6 +192,9 @@
 			files = (
 				6A0D4FD715A3FE0F00DC7E90 /* InfoPlist.strings in Resources */,
 				6A0D4FE315A3FE0F00DC7E90 /* ProjectXViewController.xib in Resources */,
+				6A0D4FF415A4010300DC7E90 /* RedViewController.xib in Resources */,
+				6A0D4FF915A4014800DC7E90 /* BlueViewController.xib in Resources */,
+				6A0D4FFE15A4015F00DC7E90 /* GreenViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -165,6 +208,9 @@
 				6A0D4FD915A3FE0F00DC7E90 /* main.m in Sources */,
 				6A0D4FDD15A3FE0F00DC7E90 /* ProjectXAppDelegate.m in Sources */,
 				6A0D4FE015A3FE0F00DC7E90 /* ProjectXViewController.m in Sources */,
+				6A0D4FF315A4010300DC7E90 /* RedViewController.m in Sources */,
+				6A0D4FF815A4014800DC7E90 /* BlueViewController.m in Sources */,
+				6A0D4FFD15A4015F00DC7E90 /* GreenViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,6 +322,7 @@
 				6A0D4FE815A3FE0F00DC7E90 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
